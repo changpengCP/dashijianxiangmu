@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: url("/assets/images/login_bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 310px;
+  width: 400px;
+  background-color: #fff;
+}
+.box .logo {
+  height: 60px;
+  background: url("/assets/images/login_title.png") no-repeat center;
+}
+.box .sign {
+  display: none;
+}
+.box .registe,
+.box .sign {
+  padding: 0 30px;
+}
+.box .registe .layui-form-item,
+.box .sign .layui-form-item {
+  position: relative;
+}
+.box .registe .layui-form-item .layui-icon,
+.box .sign .layui-form-item .layui-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.box .registe .layui-form-item .layui-input,
+.box .sign .layui-form-item .layui-input {
+  padding-left: 35px;
+}
+.box .registe .box1,
+.box .sign .box1,
+.box .registe .box2,
+.box .sign .box2 {
+  float: right;
+}
