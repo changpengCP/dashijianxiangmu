@@ -71,7 +71,7 @@ $(function () {
         data: $(this).serialize(),
         success: function (res) {
           if (res.status !== 0) {
-            return layer.msg('登陆失败')
+            return layer.msg('登陆失败!')
           }
           layer.msg('登陆成功');
           // 将登录成功的token字符串保存到当地localStorage中
